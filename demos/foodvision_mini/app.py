@@ -34,5 +34,6 @@ demo = gr.Interface(fn=predict, # mapping function from input to output
                     description=description,
                     article=article)
 
+print('Starting a demo')
 # Launch the demo!
 demo.launch()
